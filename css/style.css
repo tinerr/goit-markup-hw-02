@@ -104,10 +104,11 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  font-size: 16px;
+  border-radius: 4px;
 }
 /* checked */
 .button.primary {
-  border-radius: 4px;
   background: var(--iris, #4d5ae5);
   color: var(--white);
   line-height: 1.87;
@@ -142,7 +143,8 @@ body {
 .team .name {
   font-size: 20px;
   font-weight: 500;
-  letter-spacing: 0.92em;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: var(--navyblue);
 }
 /* checked */
@@ -150,6 +152,7 @@ body {
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
 }
 /* checked */
 .page-footer.bg-footer {
